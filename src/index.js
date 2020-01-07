@@ -12,7 +12,6 @@
 document.addEventListener("DOMContentLoaded", () => {
   document.getElementById('create-task-form').addEventListener("submit", function(event) {
     event.preventDefault();
-
     function addText (str) {
       li.innerHTML = str
       ulInput.appendChild(li)
