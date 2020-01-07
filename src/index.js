@@ -12,9 +12,17 @@ function addText (str) {
 
 
 document.addEventListener("DOMContentLoaded", () => {
+  document.getElementById('create-task-form').addEventListener("submit", function(event) {
+    event.preventDefault();
+  });
+
   addText("havilah is FLAK")
 });
 
 
 
 
+
+// document.getElementById('create-task-form').addEventListener("submit", function(event) {
+//   event.preventDefault();
+// }, false)
